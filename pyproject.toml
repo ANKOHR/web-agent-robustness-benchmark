@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "web-agent-robustness-benchmark"
+version = "0.1.0"
+description = "Deterministic evaluation of recorded agent trials against changed interfaces"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+warb = "web_agent_robustness_benchmark.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["web_agent_robustness_benchmark*"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
