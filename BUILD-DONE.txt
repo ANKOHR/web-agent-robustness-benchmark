@@ -1,0 +1,10 @@
+BUILD COMPLETE - 2026-10-01
+
+Tests: 46 passed (pytest 8.3.5, Python 3.12.10).
+Local verified implementation commit: a83c5ee5c87668c91c78553b856db1af491f9b4f
+This hash identifies the complete tested implementation and acceptance evidence. This completion record is committed separately to avoid a self-referential hash.
+Branch: main
+Installed CLI fixture/run/report demo: 0.817723 seconds for 200 synthetic records.
+Ground truth: every total, mutation count and regression ID matched exactly; zero false positives.
+
+Built a CPU-only, local-file Python CLI with fixtures, run, report, validate and compare commands; pure validation and evaluation of paired baseline/changed interface outcomes; 200 labelled synthetic trials and independent hand arithmetic; a hand-written five-record example; deterministic JSON and Markdown reports with provenance, input hashes and unmeasured savings labels; named input and write errors with atomic output; adversarial and end-to-end tests; full usage, architecture, honesty and improvement-hook documentation; and saved acceptance evidence. No real agent execution, real accuracy, savings or revenue is claimed. The post-use verdict remains pending until the two-week evidence window, with a provisional maintain disposition for portfolio evidence. Publishing was not performed.
